@@ -2,6 +2,12 @@
 name = "open-rpc"
 version = "0.1.0"
 edition = "2021"
+description = "Definition of the types used in the OpenRPC Specification."
+readme = "README.md"
+repository = "https://github.com/nils-mathieu/open-rpc"
+license = "MIT"
+authors = ["Nils Mathieu <contact@nils-mathieu.fr>"]
+keywords = ["openrpc", "rpc", "json-rpc", "json", "json-schema"]
 
 [features]
 default = ["std", "relaxed"]
